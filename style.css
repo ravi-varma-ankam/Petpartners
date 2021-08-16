@@ -1,0 +1,113 @@
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+*{  
+    /* box-sizing: content-box; */
+    margin: 0;
+}
+
+#navbar_top{
+    height: 15%;
+}
+
+#logo{
+    padding-left: 0%;
+    
+    /* width: 15%; */
+}
+
+#logo-img{
+    width: 70%;
+    padding: 5%;
+    
+    background-color: #4c3901;
+}
+
+a{
+    font-size: 130%;
+}
+
+.dropdown-menu{
+    color: white !important;
+}
+
+#search-icon{
+    color: #4c3901 !important;
+    
+}
+
+#s1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#s2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#slides{
+    padding-top: 0px;
+    /* width: 50%; */
+    height: 50%;
+}
+
+#shopbar{
+    padding-bottom: 25px;
+}
+
+
+#shopbar a {
+    margin: 10%;
+    font-size: 155%;
+    
+    color: white;
+    text-decoration: none;
+}
+
+#signup{
+    display: inline;
+    position: relative;
+    left: 100%;
+    bottom: 30%;
+}
+
+#social i{
+    font-size: 200%;
+    margin-right: 5%;
+}
+
+#footer-links{
+    position: relative;
+    /* padding-top: 5%; */
+    bottom: 35%;
+    right: 5%;
+}
+#footer-links a{
+    text-decoration: none;
+    /* padding-top: 0%; */
+    padding-left: 4%;
+    color: white;
+}
+
+.foot{
+    background-color:#4c3901 ;
+    color: white;
+}
+
+#charity{
+    padding-top: 5%;
+}
+
+#aboutus{
+    text-align: center;
+}
+
+/* #my_name{
+    position: relative;
+    left: 0%;
+} */
